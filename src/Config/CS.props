@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">16.0</VisualStudioVersion>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
@@ -69,5 +69,5 @@
   <!--This is used to set the framework version for icon resource dll generation (lookup of system.drawing.dll)-->
   <PropertyGroup>
     <ResourceGeneration_FrameworkVersion>v4.8</ResourceGeneration_FrameworkVersion>
-  </PropertyGroup>
+  </PropertyGroup>  
 </Project>
